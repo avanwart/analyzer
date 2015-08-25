@@ -1,0 +1,181 @@
+body
+	-webkit-font-smoothing: antialiased
+	font-family: 'Roboto', sans-serif
+	font-weight: 300
+	h1, h2, h3, h4, h5
+		font-weight: 100
+		font-family: 'Maven Pro', sans-serif
+
+// General
+$black: #363636
+$blue: #0052bb
+$btn: #7ed6dc
+$btnHover: #10b0bb
+$grey: #f3f3f3
+
+.btn
+	border-radius: 30px
+	font-family: 'Maven Pro', sans-serif
+	font-weight: bold
+.btn-lg
+	padding: 14px 32px
+	font-weight: bold
+	font-size: 16px
+.btn-primary
+	background: $btn
+	border: none
+	&:hover
+		background: $btnHover
+.video-wrapper
+	position: relative
+	padding-bottom: 56.25% /* 16:9 */
+	padding-top: 25px
+	height: 0
+	iframe
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+.table
+	tr > td
+		border: none
+
+// Top Nav
+.navbar
+	&.utility
+		margin-bottom: 0
+		.navbar-nav
+			li
+				a
+					font-family: 'Maven Pro', sans-serif
+					font-size: 12px
+					color: #ababab
+	&.main
+		margin-bottom: 0
+		.navbar-nav
+			li
+				a
+					font-family: 'Maven Pro', sans-serif
+					color: $black
+					font-weight: bold
+	.navbar-nav
+		li:last-child
+			a
+				padding-right: 0
+	.navbar-brand
+		padding: 0 15px
+		img
+			width: 110px
+			height: auto
+
+section 
+	img
+		max-width: 100%
+		height: auto
+	h2
+		margin-bottom: 50px
+		text-align: center
+		font-size: 38px
+		&.flat
+			margin-bottom: 10px
+	.intro
+		text-align: center
+		font-size: 20px
+		margin-bottom: 50px
+	p 
+		font-size: 17px
+		line-height: 1.7
+		margin-bottom: 2em
+// Hero
+.hero
+	background: $black url('../img/ui-pattern.jpg') repeat
+	color: white
+	margin: 0
+	h1
+		font-size: 32px
+		margin: 0 0 30px
+	ul
+		margin: 0 0 30px
+		li
+			font-size: 20px
+			margin-bottom: 10px
+
+// Logos
+.logos
+	background: $grey
+	padding: 2em 0
+	.col-sm-2
+		text-align: center
+		line-height: 50px
+		vertical-align: middle
+		font-size: 20px
+		color: $black
+		img
+			height: 50px
+			width: auto
+			display: inline-block
+			vertical-align: middle
+
+// Features
+.features
+	padding: 3em 0
+
+// Modules
+.modules
+	padding: 3em 0
+	background: $grey
+	.nav-tabs
+		margin-bottom: -1px
+		li
+			display: inline-block
+			&:first-child
+				margin-left: 10px
+			&.two, &.three, &.four, &.five
+				margin-left: 2px
+			&.active
+				a
+					background: white
+					border-bottom: 1px solid white
+			a
+				background: #f9f9f9
+				border: 1px solid #dadada
+				border-bottom: none
+				border-radius: 4px 4px 0 0
+				margin: 0
+				padding: 15px 30px
+				text-align: center
+				font-size: 14px
+				color: $black
+	.tab-content
+		border: 1px solid #dadada
+		margin: 0
+		.tab-pane
+			padding: 2em 50px
+			background: white
+			h3
+				font-size: 32px
+			h4
+				font-size: 20px
+				margin-bottom: 10px
+			.intro
+				text-align: left
+				font-size: 20px
+			img
+				margin-bottom: 30px
+				&.reduced
+					max-width: 90%
+					display: inline-block
+			p
+				font-size: 16px
+			ul
+				li
+					font-size: 16px
+					margin-bottom: 10px
+			.cta
+				padding: 2em 0
+
+
+@media (min-width: 1200px)
+	.container
+		width: 1170px
