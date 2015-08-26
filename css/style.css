@@ -49,6 +49,8 @@ body {
     font-family: "Maven Pro", sans-serif;
     color: #363636;
     font-weight: bold; }
+.navbar .navbar-nav li a:hover {
+  background: transparent; }
 .navbar .navbar-nav li:last-child a {
   padding-right: 0; }
 .navbar .navbar-brand {
