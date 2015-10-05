@@ -26,7 +26,7 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar utility">
+			<nav class="navbar utility hidden-xs">
 				<div class="container">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="http://www.dxo.com/us/photography">Photography</a></li>
@@ -45,6 +45,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
+							<span class="text">Menu</span>
 						</button>
 						<a class="navbar-brand" href="#">
 							<img src="img/dxo-logo.png" alt="">
@@ -53,6 +54,12 @@
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="visible-xs nav navbar-nav utility">
+							<li><a href="http://www.dxo.com/us/photography">Photography</a></li>
+							<li><a href="http://www.dxo.com/us/embedded-imaging">Embedded Imaging</a></li>
+							<li><a href="http://www.dxo.com/us/image-quality">Image Quality</a></li>
+							<li><a href="http://www.dxo.com/us/company">Company</a></li>
+						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<li class="active">
 								<a href="http://www.dxo.com/us/image-quality-evaluation/dxo-analyzer">DxO Analyzer</a>
@@ -85,7 +92,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<h1>DxO Analyzer: The #1 solution for measuring and benchmarking still and video camera image quality</h1>
+						<h1>DxO Analyzer: <br class="visible-xs">The #1 solution for measuring and benchmarking still and video camera image quality</h1>
 						<ul>
 							<li>Turn key solution including all you need for testing</li>
 							<li>Specialized Modules for Optics, Photo, Video &amp; more</li>
@@ -107,12 +114,12 @@
 		<section class="logos">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-2">Our Customers</div>
-					<div class="col-sm-2"><img src="img/nasa-logo.gif" alt=""></div>
-					<div class="col-sm-2"><img src="img/nikon-logo.jpg" alt=""></div>
-					<div class="col-sm-2"><img src="img/samsung-logo.gif" alt=""></div>
-					<div class="col-sm-2"><img src="img/nvidia-logo.gif" alt=""></div>
-					<div class="col-sm-2"><img src="img/htc-logo.gif" alt=""></div>
+					<div class="col-xs-6 col-sm-2">Our Customers</div>
+					<div class="col-xs-6 col-sm-2"><img src="img/nasa-logo.gif" alt=""></div>
+					<div class="col-xs-6 col-sm-2"><img src="img/nikon-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2"><img src="img/samsung-logo.gif" alt=""></div>
+					<div class="col-xs-6 col-sm-2"><img src="img/nvidia-logo.gif" alt=""></div>
+					<div class="col-xs-6 col-sm-2"><img src="img/htc-logo.gif" alt=""></div>
 				</div>
 			</div>
 		</section>
@@ -174,6 +181,7 @@
 				<div class="row">
 					<div class="col-sm-12">
 						 <!-- Nav tabs -->
+						<span class="choose visible-xs">Choose a module:</span>
 						<ul class="nav nav-tabs" role="tablist" id="myTabs">
 						  <li role="presentation" class="active"><a href="#optics" aria-controls="optics" role="tab" data-toggle="tab">Optics Module</a></li>
 						  <li role="presentation" class="two"><a href="#photo" aria-controls="photo" role="tab" data-toggle="tab">Photo Module</a></li>

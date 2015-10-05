@@ -218,3 +218,82 @@ section p {
     padding: 15px 20px;
     font-size: 13px;
     white-space: nowrap; } }
+@media screen and (max-width: 767px) {
+  section .btn-primary {
+    padding: 14px;
+    font-size: 13px; }
+
+  .btn {
+    white-space: normal; }
+
+  .navbar .navbar-toggle {
+    margin-top: 15px; }
+    .navbar .navbar-toggle .icon-bar {
+      background: #363636; }
+    .navbar .navbar-toggle .text {
+      font-size: 9px; }
+  .navbar .navbar-collapse .utility {
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 5px; }
+  .navbar .navbar-collapse .navbar-nav li {
+    text-align: right; }
+    .navbar .navbar-collapse .navbar-nav li:last-child a {
+      padding-right: 15px; }
+  .navbar .navbar-brand img {
+    margin-top: 20px; }
+
+  .hero {
+    padding: 30px 10px; }
+    .hero ul {
+      margin-left: 20px;
+      padding: 0; }
+    .hero .btn-primary {
+      margin-bottom: 30px; }
+
+  .logos {
+    padding: 15px 0; }
+    .logos .col-xs-6 {
+      font-size: 14px;
+      padding: 10px 15px; }
+
+  .modules .choose {
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 15px; }
+  .modules .nav-tabs {
+    list-style-type: disc;
+    border: none; }
+    .modules .nav-tabs li {
+      display: block;
+      float: none;
+      list-style-type: disc;
+      margin-bottom: 10px; }
+      .modules .nav-tabs li a {
+        background: transparent;
+        text-align: left;
+        color: #0052bb;
+        border: none;
+        padding: 0; }
+      .modules .nav-tabs li.active a {
+        background: transparent;
+        font-weight: bold;
+        border: none;
+        color: #0052bb; }
+      .modules .nav-tabs li:first-child {
+        margin-left: 0; }
+  .modules .tab-content {
+    border: none; }
+    .modules .tab-content .tab-pane {
+      border: none;
+      background: transparent;
+      padding: 0; }
+      .modules .tab-content .tab-pane h3 {
+        font-size: 24px; }
+      .modules .tab-content .tab-pane .intro {
+        font-size: 16px;
+        margin-bottom: 30px; }
+        .modules .tab-content .tab-pane .intro a {
+          display: block;
+          text-align: center;
+          margin-top: 15px; } }
